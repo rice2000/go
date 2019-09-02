@@ -48,12 +48,12 @@
   revision = "523a5da1a92f01b01f840b61689c0340a0243532"
 
 [[projects]]
+  branch = "master"
   digest = "1:a9d72387197f5b54e24fd51499668fb597e25db8f5223bfb51db3bdd10e2d8eb"
   name = "github.com/asaskevich/govalidator"
   packages = ["."]
   pruneopts = "T"
   revision = "7d2e70ef918f16bd6455529af38304d6d025c952"
-  source = "https://github.com/asaskevich/govalidator.git"
 
 [[projects]]
   digest = "1:b6ce38ef977bd5df1f9a7824549f03e542b772edf86f565ad1392a9fa68b9676"
@@ -146,6 +146,14 @@
   revision = "5215b55f46b2b919f50a1df0eaa5886afe4e3b3d"
 
 [[projects]]
+  digest = "1:044b2f1eea2f5cfb0d3678baf60892734f59d5c2ea3932cb6ed894a97ccba15c"
+  name = "github.com/elazarl/go-bindata-assetfs"
+  packages = ["."]
+  pruneopts = "T"
+  revision = "30f82fa23fd844bd5bb1e5f216db87fd77b5eb43"
+  version = "v1.0.0"
+
+[[projects]]
   digest = "1:5297743abfa08385d460c70f49cf0f0f01433445b400931a23027e846b594477"
   name = "github.com/ethereum/go-ethereum"
   packages = [
@@ -231,11 +239,12 @@
   version = "v1.23.0"
 
 [[projects]]
-  digest = "1:1387be1e53c552585412ee19dcc7166c55dbf258f04510326dc138a3f37c819e"
+  digest = "1:d6bd34d9f9b8cb40469c1e5cca1e5d866f139f1c762e954f95d07e9f936aa86d"
   name = "github.com/go-sql-driver/mysql"
   packages = ["."]
   pruneopts = "T"
-  revision = "2e00b5cd70399450106cec6431c2e2ce3cae5034"
+  revision = "d523deb1b23d913de5bdada721a6071e71283618"
+  version = "v1.4.0"
 
 [[projects]]
   digest = "1:1ecf6125aba01b53e87eef03594102941d7f96c106787b53683323bdebf70a0e"
@@ -332,6 +341,20 @@
   revision = "bf9dde6d0d2c004a008c27aaee91170c786f6db8"
 
 [[projects]]
+  digest = "1:8f20c8dd713564fa97299fbcb77d729c6de9c33f3222812a76e6ecfaef80fd61"
+  name = "github.com/hpcloud/tail"
+  packages = [
+    ".",
+    "ratelimiter",
+    "util",
+    "watch",
+    "winfile",
+  ]
+  pruneopts = "T"
+  revision = "a30252cb686a21eb2d0b98132633053ec2f7f1e5"
+  version = "v1.0.0"
+
+[[projects]]
   digest = "1:8e2464598392786ea6ace786a778918a5ec08b3679617bfb0dd9abcd40600e72"
   name = "github.com/imkira/go-interpol"
   packages = ["."]
@@ -362,14 +385,15 @@
   revision = "bd40a432e4c76585ef6b72d3fd96fb9b6dc7b68d"
 
 [[projects]]
-  digest = "1:70f9af80210f87f02874051596b0c02f4fce2b115ff7028e2ac754523927659a"
+  digest = "1:648edb3f72f7b7b62320d3473ad8008ae03f90c1d01f559fc85c37b408e1a5dd"
   name = "github.com/jmoiron/sqlx"
   packages = [
     ".",
     "reflectx",
   ]
   pruneopts = "T"
-  revision = "05b81a7d5d38058e42148dc01f17daf4acba4640"
+  revision = "d161d7a76b5661016ad0b085869f77fd410f3e6a"
+  version = "v1.2.0"
 
 [[projects]]
   digest = "1:14d434143144f0f4f3e6c8bc6ff035fa2321da997e32b2700085402260658630"
@@ -421,14 +445,16 @@
   revision = "c603884a2c1fcf331c71940f3227a8111d29f3ba"
 
 [[projects]]
-  digest = "1:c92cec18d5ad500beaecbb094638ff9e319ac31f3d1c7c5b68ba06bd6217e7a2"
+  digest = "1:de9cc7a0102d0ccc5fbfba2336a0621cb6815581ceab488a30e4a7dbc3286b53"
   name = "github.com/lib/pq"
   packages = [
     ".",
     "oid",
+    "scram",
   ]
   pruneopts = "T"
-  revision = "50761b0867bd1d9d069276790bcd4a3bccf2324a"
+  revision = "3427c32cb71afc948325f299f040e53c1dd78979"
+  version = "v1.2.0"
 
 [[projects]]
   digest = "1:7b64a000d64c808554c53442ef9593230e8742c1482108efc9a445f404b077f3"
@@ -476,8 +502,7 @@
   revision = "4e24498b31dba4683efb9d35c1c8a91e2eda28c8"
 
 [[projects]]
-  branch = "master"
-  digest = "1:58e797548d332abdfdcb87422d79a0cc94982f6ada7881c2aec5dabb22a1a415"
+  digest = "1:1de2ef6996903caab4bcf41f7885aa276d8e20076ba52ca80b2c6c32efb9c5f5"
   name = "github.com/onsi/ginkgo"
   packages = [
     ".",
@@ -501,11 +526,11 @@
     "types",
   ]
   pruneopts = "T"
-  revision = "c73579c58881b5ba90d3b08f6ac59cb1c909d6dd"
+  revision = "2e1be8f7d90e9d3e3e58b0ce470f2f14d075406f"
+  version = "v1.7.0"
 
 [[projects]]
-  branch = "master"
-  digest = "1:58e8be7fa1667158c62f632c254153e3b1c91d86473406846ad41406aaea49be"
+  digest = "1:4f40f5e1925c58d5f9b6a953d1b02f475a6be704e9b5f1a21df6c62c434bde13"
   name = "github.com/onsi/gomega"
   packages = [
     ".",
@@ -522,7 +547,8 @@
     "types",
   ]
   pruneopts = "T"
-  revision = "649b44d988ce182cabcda7dba01fcf3b6179ad19"
+  revision = "65fb64232476ad9046e57c26cd0bff3d3a8dc6cd"
+  version = "v1.4.3"
 
 [[projects]]
   digest = "1:a88448fcd2802025fa764388e12f31f0a64d5d436b369a71b97a6c9da783fafe"
@@ -560,11 +586,11 @@
   revision = "2f36fb519619e8589fbef5095fbe113c14e7d090"
 
 [[projects]]
-  digest = "1:745d6aedb50bf5fd2b1f23c8fb02326e86c6ef8fd891fe6cf8af369bf27b783b"
+  digest = "1:d0fff162c37d0e803cb7d774be508539e2ea8cd0808aedf5c0c45e5ed479b035"
   name = "github.com/rcrowley/go-metrics"
   packages = ["."]
   pruneopts = "T"
-  revision = "a5cfc242a56ba7fa70b785f678d6214837bf93b9"
+  revision = "51425a2415d21afadfd55cd93432c0bc69e9598d"
 
 [[projects]]
   digest = "1:613400d7688f0486bec153e7f6bb5323b7446a2a064e4246e0378bf77ea91deb"
@@ -613,6 +639,14 @@
   packages = ["diffmatchpatch"]
   pruneopts = "T"
   revision = "83532ca1c1caa393179c677b6facf48e61f4ca5d"
+
+[[projects]]
+  branch = "master"
+  digest = "1:4a0243e7807071601369ff7ed5ccf7769fb27d8a1fd7db4926c41dedf9e32058"
+  name = "github.com/shurcooL/httpfs"
+  packages = ["filter"]
+  pruneopts = "T"
+  revision = "8d4bc4ba774931155e6cd5ef6098cb038dd45135"
 
 [[projects]]
   digest = "1:39553373857c2f3d484b9e1e4474bf6f21a795fe14fe6b941362ee6b266416f3"
@@ -668,6 +702,13 @@
   revision = "0bc96f33a18ef2f963e75431dbed042129eb421b"
 
 [[projects]]
+  digest = "1:1726681d0181b61f4e256aeda39fa53f29268bab43b32ebe78f0223dd910dcfd"
+  name = "github.com/stellar/throttled"
+  packages = ["."]
+  pruneopts = "T"
+  revision = "89d75816f59db3124e575e96b35d4b7d927cde93"
+
+[[projects]]
   digest = "1:1087cae51acd825ff03792b392a34486a261b9673a9514df0b712051edee0c2b"
   name = "github.com/stretchr/objx"
   packages = ["."]
@@ -685,14 +726,6 @@
   ]
   pruneopts = "T"
   revision = "976c720a22c8eb4eb6a0b4348ad85ad12491a506"
-
-[[projects]]
-  digest = "1:a6dd23012ca65b72dbca7b3e06dac44a9bb33b018221a26f213b1802cddfc337"
-  name = "github.com/throttled/throttled"
-  packages = ["."]
-  pruneopts = "T"
-  revision = "c99eef3ad70a3be5a983770523e0e379699c805c"
-  source = "https://github.com/bartekn/throttled.git"
 
 [[projects]]
   branch = "master"
@@ -841,11 +874,28 @@
   revision = "1cbadb444a806fd9430d14ad08967ed91da4fa0a"
 
 [[projects]]
+  digest = "1:04b9a99f5ff102323281698000a18c2daabde66baea55fe74941d6c82ed715a8"
+  name = "google.golang.org/appengine"
+  packages = ["cloudsql"]
+  pruneopts = "T"
+  revision = "b2f4a3cf3c67576a2ee09e1fe62656a5086ce880"
+  version = "v1.6.1"
+
+[[projects]]
   digest = "1:3ccd10c863188cfe0d936fcfe6a055c95362e43af8e7039e33baade846928e74"
   name = "gopkg.in/fatih/set.v0"
   packages = ["."]
   pruneopts = "T"
   revision = "57907de300222151a123d29255ed17f5ed43fad3"
+
+[[projects]]
+  digest = "1:7fc160b460a6fc506b37fcca68332464c3f2cd57b6e3f111f26c5bbfd2d5518e"
+  name = "gopkg.in/fsnotify.v1"
+  packages = ["."]
+  pruneopts = "T"
+  revision = "c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9"
+  source = "gopkg.in/fsnotify/fsnotify.v1"
+  version = "v1.4.7"
 
 [[projects]]
   digest = "1:771526d45c07bce33c1a468c844fd8c438ec94ad9fb660ca74b39e753a2fe76a"
@@ -879,6 +929,14 @@
   revision = "c1b8fa8bdccecb0b8db834ee0b92fdbcfa606dd6"
 
 [[projects]]
+  branch = "v1"
+  digest = "1:0caa92e17bc0b65a98c63e5bc76a9e844cd5e56493f8fdbb28fad101a16254d9"
+  name = "gopkg.in/tomb.v1"
+  packages = ["."]
+  pruneopts = "T"
+  revision = "dd632973f1e7218eb1089048e0798ec9ae7dceb8"
+
+[[projects]]
   digest = "1:1c39cd8d4130c1c7e3a13fc4bf425229bfe68bbd9632a24c3efa9579ce619dce"
   name = "gopkg.in/tylerb/graceful.v1"
   packages = ["."]
@@ -887,11 +945,12 @@
   version = "v1.2.13"
 
 [[projects]]
-  digest = "1:37bf0c8e8da86322a5caa03c3a1979dd3538983d7d929e942f1542f865f3d5f2"
+  digest = "1:4d2e5a73dc1500038e504a8d78b986630e3626dc027bc030ba5c75da257cdb96"
   name = "gopkg.in/yaml.v2"
   packages = ["."]
   pruneopts = "T"
-  revision = "7ad95dd0798a40da1ccdff6dff35fd177b5edf40"
+  revision = "51d6538a90f86fe93ac480b35f37b2be17fef232"
+  version = "v2.2.2"
 
 [solve-meta]
   analyzer-name = "dep"
@@ -910,6 +969,7 @@
     "github.com/btcsuite/btcd/txscript",
     "github.com/btcsuite/btcd/wire",
     "github.com/btcsuite/btcutil",
+    "github.com/elazarl/go-bindata-assetfs",
     "github.com/ethereum/go-ethereum/common",
     "github.com/ethereum/go-ethereum/core/types",
     "github.com/ethereum/go-ethereum/crypto",
@@ -944,16 +1004,17 @@
     "github.com/rubenv/sql-migrate",
     "github.com/sebest/xff",
     "github.com/segmentio/go-loggly",
+    "github.com/shurcooL/httpfs/filter",
     "github.com/sirupsen/logrus",
     "github.com/sirupsen/logrus/hooks/test",
     "github.com/spf13/cobra",
     "github.com/spf13/viper",
     "github.com/stellar/go-xdr/xdr3",
+    "github.com/stellar/throttled",
     "github.com/stretchr/testify/assert",
     "github.com/stretchr/testify/mock",
     "github.com/stretchr/testify/require",
     "github.com/stretchr/testify/suite",
-    "github.com/throttled/throttled",
     "github.com/tyler-smith/go-bip32",
     "github.com/tyler-smith/go-bip39",
     "golang.org/x/crypto/ed25519",
